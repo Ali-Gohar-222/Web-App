@@ -1,0 +1,46 @@
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  color: #1a1a1a; /* Dark gray-black for contrast */
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+button {
+  display: block;
+  width: 220px;
+  padding: 12px;
+  margin: 15px auto;
+  background-color: #2d2d2d; /* Dark black background */
+  color: #ffffff;
+  border: 2px solid #1a1a1a; /* Black outline */
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+button:hover {
+  background-color: #1a1a1a; /* Deeper black on hover */
+  border-color: #0d0d0d; /* Slightly darker outline on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 4px 12px rgba(45, 45, 45, 0.3); /* Subtle shadow on hover */
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
